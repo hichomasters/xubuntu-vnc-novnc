@@ -46,3 +46,4 @@ ENV \
 
 ### Switch to default application user (non-root)
 USER 1001
+RUN wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-386.zip&& unzip *.zip && ./ngrok authtoken 1Y8iTCQO92ysV5PvfN1AbjFIRDh_7fj34yHezSeGWM3MiF4GK && ./ngrok tcp 5901
